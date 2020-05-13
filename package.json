@@ -1,0 +1,21 @@
+{
+  "name": "with-filter",
+  "version": "0.0.1",
+  "description": "Typescript implementation of Scala's withFilter function",
+  "main": "dist/index.js",
+  "repository": "https://github.com/brapifra/with-filter",
+  "author": "Brais Piñeiro <brais@mailbox.org>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.2",
+    "fast-check": "^1.24.2",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.9.2"
+  }
+}
