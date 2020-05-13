@@ -1,6 +1,6 @@
 {
   "name": "with-filter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Typescript implementation of Scala's withFilter function",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
