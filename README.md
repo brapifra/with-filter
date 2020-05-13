@@ -1,5 +1,5 @@
 # with-filter
-### Typescript implementation of Scala's withFilter function
+Typescript implementation of Scala's withFilter function
 
 ## Installation
 ```
