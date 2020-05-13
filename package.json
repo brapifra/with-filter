@@ -3,13 +3,14 @@
   "version": "0.0.3",
   "description": "Typescript implementation of Scala's withFilter function",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/brapifra/with-filter",
   "author": "Brais Piñeiro <brais@mailbox.org>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "test": "jest",
-    "build": "rm -rf ./dist && tsc"
+    "prepublish": "rm -rf ./dist && tsc"
   },
   "devDependencies": {
     "@types/jest": "^25.2.2",
